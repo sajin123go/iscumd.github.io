@@ -2302,4 +2302,28 @@ table.alt tbody tr td {
     #wrapper {
       max-width: 100%; } }
 
+.sponsor-logo {
+  max-width: 100%;
+  max-height: 100%;
+  width: 50%;
+  height: 50%; }
+
+#tk-video {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #ddd;
+  object-fit: cover;
+  left: 50%;
+  right: 50%;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 30px;
+  color: rgba(0, 0, 0, 0.5); }
+
+#video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 50px; }
+
 /*# sourceMappingURL=main.css.map */
