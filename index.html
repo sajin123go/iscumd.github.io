@@ -1,163 +1,239 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Intelligent Systems Club</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="icon" type="image/png" href="images/flavicon.png"/>
-		<link rel="stylesheet" href="sass/bin/main.css" />
-		<noscript><link rel="stylesheet" href="sass/bin/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Intelligent Systems Club</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="icon" type="image/png" href="images/flavicon.png" />
+    <link rel="stylesheet" href="sass/bin/main.css" />
+    <noscript><link rel="stylesheet" href="sass/bin/noscript.css" /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header" class="alt">
+        <span class="logo"><img src="images/logo.svg" alt="" /></span>
+        <h1>Intelligent Systems Club</h1>
+        <p id="splash-text" style="white-space: pre">
+          Sometimes the things we build are smart.
+        </p>
+      </header>
 
-		<!-- Wrapper -->
-		<div id="wrapper">
+      <!-- Nav -->
+      <nav id="nav">
+        <ul>
+          <li><a class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="current-teams.html">Current Projects</a></li>
+          <li><a href="past-teams.html">Past Projects</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="sponsors.html">Support</a></li>
+        </ul>
+      </nav>
 
-			<!-- Header -->
-			<header id="header" class="alt">
-				<span class="logo"><img src="images/logo.svg" alt="" /></span>
-				<h1>Intelligent Systems Club</h1>
-				<p id="splash-text" style="white-space: pre">Sometimes the things we build are smart.</p>
-			</header>
+      <!-- Main -->
+      <div id="main">
+        <!-- About -->
+        <section id="about" class="main special">
+          <div class="spotlight">
+            <div class="content">
+              <header class="major">
+                <h2>About</h2>
+              </header>
+              <p>
+                The Intelligent Systems Club is a student organization at the
+                University of Michigan-Dearborn which provides an environment
+                for like-minded individuals enthusiastic about robotics to
+                engage in system development through a friendly and experimental
+                atmosphere.
+              </p>
+              <ul class="actions">
+                <li><a href="about.html" class="button">Learn More</a></li>
+              </ul>
+            </div>
+            <span class="image"
+              ><img
+                src="images/The%20dome.png"
+                alt="Team KiloOhm under the dome"
+            /></span>
+          </div>
+        </section>
 
-			<!-- Nav -->
-			<nav id="nav">
-				<ul>
-					<li><a class="active">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="current-teams.html">Current Projects</a></li>
-					<li><a href="past-teams.html">Past Projects</a></li>
-					<li><a href="join.html">Join</a></li>
-					<li><a href="sponsors.html">Support</a></li>
-				</ul>
-			</nav>
+        <!-- Projects -->
+        <section id="projects" class="main special">
+          <header class="major">
+            <h2>Teams</h2>
+          </header>
+          <div id="video-wrapper">
+            <video autoplay muted loop id="tk-video">
+              <source src="images/tk-run.webm" type="video/webm" />
+            </video>
+          </div>
+          <ul class="projects">
+            <li>
+              <h3>Project Phoenix</h3>
+              <p>
+                Phoenix is our Autonomous Race kart that uses state-of-the-art
+                technology. Team Phoenix will be participating in the Autonomous
+                Karting Series.
+              </p>
+            </li>
+            <li>
+              <h3>TinyKart</h3>
+              <p>
+                TinyKart is our introductory autonomy program that is created in
+                house for training new members.
+              </p>
+            </li>
+          </ul>
+          <footer class="major">
+            <ul class="actions special">
+              <li>
+                <a href="current-teams.html" class="button">Learn More</a>
+              </li>
+            </ul>
+          </footer>
+        </section>
 
-			<!-- Main -->
-			<div id="main">
+        <!-- Join -->
+        <section id="join" class="main special">
+          <header class="major">
+            <h2>Join</h2>
+            <p>
+              Are you a student?<br />
+              Are you interested in joining us?<br />
+              Are you a Sponsor looking to support us?
+            </p>
+          </header>
+          <footer class="major">
+            <ul class="actions special">
+              <li><a href="join.html" class="button primary">Join</a></li>
+              <li><a href="about.html" class="button">Learn More</a></li>
+              <li><a href="sponsors.html" class="button">Support</a></li>
+            </ul>
+          </footer>
+        </section>
 
-				<!-- About -->
-				<section id="about" class="main special">
-					<div class="spotlight">
-						<div class="content">
-							<header class="major">
-								<h2>About</h2>
-							</header>
-							<p>
-								The Intelligent Systems Club is a student organization at the University of Michigan-Dearborn which provides an environment
-								for like-minded individuals enthusiastic about robotics to engage in system
-								development through a friendly and experimental atmosphere.
-							</p>
-							<ul class="actions">
-								<li><a href="about.html" class="button">Learn More</a></li>
-							</ul>
-						</div>
-						<span class="image"><img src="images/The%20dome.png" alt="Team KiloOhm under the dome" /></span>
-					</div>
-				</section>
+        <!-- Join -->
+        <section id="sponsors" class="main special">
+          <header class="major">
+            <h2>Sponsors</h2>
+            <div>
+              <img
+                class="sponsor-logo"
+                src="images/ford-logo-2017.png"
+                alt="Ford logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/magna-logo.svg"
+                alt="Magna logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/yaz-logo-full-color.png"
+                alt="Yazaki logo"
+              />
+              <img
+                class="sponsor-logo"
+                src="images/toyota-logo.svg"
+                alt="Toyota Logo"
+              />
+            </div>
+          </header>
+        </section>
+      </div>
 
-				<!-- Projects -->
-				<section id="projects" class="main special">
-					<header class="major">
-						<h2>Teams</h2>
-					</header>
-					<div id="video-wrapper">
-						<video autoplay muted loop id="tk-video">
-							<source src="images/tk-run.webm" type="video/webm">
-						</video>
-					</div>
-					<ul class="projects">
-						<li>
-							<h3>Project Phoenix</h3>
-							<p>Phoenix is our Autonomous Race kart that uses state-of-the-art technology. Team Phoenix will be participating in the Autonomous Karting Series.</p>
-						</li>
-						<li>
-							<h3>TinyKart</h3>
-							<p>TinyKart is our introductory autonomy program that is created in house for training new members.</p>
-						</li>
+      <!-- Footer -->
+      <footer id="footer">
+        <section>
+          <dl class="alt">
+            <iframe
+              src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=aXNjLXJvYm90aWNzQHVtaWNoLmVkdQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%230B8043&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=1&amp;mode=AGENDA"
+              style="border-width: 0"
+              width="400"
+              height="400"
+              frameborder="0"
+              scrolling="no"
+            ></iframe>
+          </dl>
+        </section>
+        <section>
+          <h2>Contact</h2>
+          <dl class="alt">
+            <dt>Address</dt>
+            <dd>Institute for Advanced Vehicle Systems</dd>
+            <dd>4901 Evergreen Rd &bull; Dearborn, MI 48128 &bull; USA</dd>
+            <dt>Phone</dt>
+            <dd>313-593-3403</dd>
+            <dt>Email</dt>
+            <dd>
+              <a href="mailto:isc-robotics@umich.edu">isc-robotics@umich.edu</a>
+            </dd>
+          </dl>
+          <ul class="icons">
+            <li>
+              <a
+                href="https://twitter.com/iscumd"
+                class="icon brands fa-twitter alt"
+                ><span class="label">Twitter</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://discord.gg/rFYJDWbCYq"
+                class="icon brands fa-discord alt"
+                ><span class="label">Discord</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://iscumd.slack.com"
+                class="icon brands fa-slack alt"
+                ><span class="label">Slack</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCKsVvxFOK8rj25WXCyK6qrA"
+                class="icon brands fa-youtube alt"
+                ><span class="label">Slack</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/iscumd"
+                class="icon brands fa-github alt"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+          </ul>
+        </section>
+        <img
+          src="images/CECS_marketing_white_HEX_LOGO.png"
+          style="height: 50%; width: 50%; object-fit: contain"
+          alt="University of Michigan-Dearborn CECS Logo"
+        />
+        <p class="copyright">
+          &copy; Intelligent Systems Club. Design:
+          <a href="https://html5up.net">HTML5 UP</a>.
+        </p>
+      </footer>
+    </div>
 
-					</ul>
-					<footer class="major">
-						<ul class="actions special">
-							<li><a href="current-teams.html" class="button">Learn More</a></li>
-						</ul>
-					</footer>
-				</section>
-
-				<!-- Join -->
-				<section id="join" class="main special">
-					<header class="major">
-						<h2>Join</h2>
-						<p>Are you a student?<br />
-						Are you interested in joining us?<br />
-						Are you a Sponsor looking to support us?</p>
-					</header>
-					<footer class="major">
-						<ul class="actions special">
-							<li><a href="join.html" class="button primary">Join</a></li>
-							<li><a href="about.html" class="button">Learn More</a></li>
-							<li><a href="sponsors.html" class="button">Support</a></li>
-						</ul>
-					</footer>
-				</section>
-
-				<!-- Join -->
-				<section id="sponsors" class="main special">
-					<header class="major">
-						<h2>Sponsors</h2>
-						<div>
-							<img class="sponsor-logo" src="images/ford-logo-2017.png" alt="Ford logo">
-							<img class="sponsor-logo" src="images/magna-logo.svg" alt="Magna logo">
-							<img class="sponsor-logo" src="images/yaz-logo-full-color.png" alt="Yazaki logo">
-							<img class="sponsor-logo" src="images/toyota-logo.svg" alt="Toyota Logo">
-						</div>
-					</header>
-				</section>
-
-
-			</div>
-
-			<!-- Footer -->
-			<footer id="footer">
-				<section>
-					<dl class="alt">
-						<iframe src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=aXNjLXJvYm90aWNzQHVtaWNoLmVkdQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%230B8043&amp;showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=1&amp;mode=AGENDA" style="border-width:0" width="400" height="400" frameborder="0" scrolling="no"></iframe>
-					</dl>
-				</section>
-				<section>
-					<h2>Contact</h2>
-					<dl class="alt">
-						<dt>Address</dt>
-						<dd>Institute for Advanced Vehicle Systems</dd>
-						<dd>4901 Evergreen Rd &bull; Dearborn, MI 48128 &bull; USA</dd>
-						<dt>Phone</dt>
-						<dd>313-593-3403</dd>
-						<dt>Email</dt>	
-						<dd><a href="mailto:isc-robotics@umich.edu">isc-robotics@umich.edu</a></dd>
-					</dl>
-					<ul class="icons">
-						<li><a href="https://twitter.com/iscumd" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-						<li><a href="https://discord.gg/rFYJDWbCYq" class="icon brands fa-discord alt"><span class="label">Discord</span></a></li>
-						<li><a href="https://iscumd.slack.com" class="icon brands fa-slack alt"><span class="label">Slack</span></a></li>
-						<li><a href="https://www.youtube.com/channel/UCKsVvxFOK8rj25WXCyK6qrA" class="icon brands fa-youtube alt"><span class="label">Slack</span></a></li>
-						<li><a href="https://github.com/iscumd" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-					</ul>
-				</section>
-				<img src="images/CECS_marketing_white_HEX_LOGO.png" style="height: 50%; width: 50%; object-fit: contain" alt="University of Michigan-Dearborn CECS Logo"> 
-				<p class="copyright">&copy; Intelligent Systems Club. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-			</footer>
-
-		</div>
-
-		<!-- Scripts -->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.scrollex.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/browser.min.js"></script>
-		<script src="js/breakpoints.min.js"></script>
-		<script src="js/util.js"></script>
-		<script src="js/main.js"></script>
-		<!-- This last one is our custom script, change it if needed-->
-		<script src="js/common.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.scrollex.min.js"></script>
+    <script src="js/jquery.scrolly.min.js"></script>
+    <script src="js/browser.min.js"></script>
+    <script src="js/breakpoints.min.js"></script>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+    <!-- This last one is our custom script, change it if needed-->
+    <script src="js/common.js"></script>
+  </body>
 </html>
