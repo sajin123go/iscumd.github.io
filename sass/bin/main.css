@@ -2784,7 +2784,7 @@ body.is-preload #header.alt .logo {
 #nav h4,
 #nav h5,
 #nav h6 {
-  color: #636363;
+  color: #d12525;
 }
 #nav blockquote {
   border-left-color: #dddddd;
@@ -2828,10 +2828,11 @@ body.is-preload #header.alt .logo {
   box-shadow: inset 0 0 0 1px transparent;
 }
 #nav ul li a:hover {
-  background-color: rgba(222, 222, 222, 0.25);
+  background-color: #FFCB05;
 }
 #nav ul li a.active {
-  background-color: #ffffff;
+  background-color: #00274c;
+  color: #f7f7f7;
   box-shadow: none;
 }
 #nav.alt {
