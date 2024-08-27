@@ -2322,8 +2322,8 @@ header.major.special h2:after {
 
 /* Keyframes for the sliding animation */
 @keyframes slideAnimation {
-  0% { opacity: 0.7; }
-  20% { opacity: 0.7; }
+  0% { opacity: 0.5; }
+  20% { opacity: 0.5; }
   25% { opacity: 0; }
   100% { opacity: 0; }
 }
