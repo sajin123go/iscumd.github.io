@@ -2089,6 +2089,39 @@ input[type="radio"]:focus + label:before {
   width: 100%;
 }
 
+/* Ensure the container is displayed properly */
+.image-container {
+  display: flex; /* Use flexbox for better control */
+  flex-wrap: wrap; /* Allow images to wrap on smaller screens */
+  justify-content: center; /* Center images horizontally */
+  gap: 20px; /* Add some space between images */
+}
+
+.image-wrapper {
+  width: 100%; /* Full width by default */
+  max-width: 400px; /* Maximum width of image container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.image-wrapper img {
+  width: 100%; /* Make image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Prevent image from stretching */
+  object-fit: cover; /* Ensure images cover their container */
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+  .image-container {
+    flex-direction: column; /* Stack images vertically on smaller screens */
+    align-items: center; /* Center images vertically */
+  }
+  .image-wrapper {
+    max-width: 70%; /* Adjust width for smaller screens */
+  }
+}
+
+
 /* List */
 ol {
   list-style: decimal;
@@ -3253,6 +3286,33 @@ body.is-preload #header.alt .logo {
 @media screen and (max-width: 480px) {
   #footer {
     padding: 2.5em 1em 0.5em 1em;
+  }
+}
+
+
+
+ /* Ensure the container takes up the necessary space */
+ .calendar-container {
+  width: 400px; /* Default width */
+  height: 400px; /* Default height */
+  max-width: 100%; /* Make sure it doesn't overflow */
+  margin: 0 auto; /* Center the container */
+}
+
+.calendar-container iframe {
+  width: 100%; /* Make iframe take full width of its container */
+  height: 100%; /* Make iframe take full height of its container */
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) { /* Adjust breakpoint as needed */
+  .calendar-container {
+    width: 50vw; /* 70% of the viewport width */
+    height: auto; /* Adjust height to maintain aspect ratio */
+  }
+
+  .calendar-container iframe {
+    height: 400px; /* Set a fixed height or adjust as needed */
   }
 }
 
