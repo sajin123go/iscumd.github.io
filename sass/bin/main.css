@@ -2353,6 +2353,18 @@ header.major.special h2:after {
   overflow: hidden;
 }
 
+/* Mobile styles */
+@media only screen and (max-width: 768px) { /* Adjust breakpoint as needed */
+  .slideshow-container {
+    height: 63vh; /* Increase height on mobile, can adjust as needed */
+  }
+
+  .slide {
+    background-size: contain; /* Ensure the background covers the container */
+    background-position: center; /* Center the background image */
+  }
+}
+
 /* Keyframes for the sliding animation */
 @keyframes slideAnimation {
   0% { opacity: 0; }
